@@ -1,0 +1,3460 @@
+{
+  "name": "PDA ASWE",
+  "intents": [
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I haven't got a clue"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "calender-add",
+      "examples": [
+        {
+          "text": "Save a meeting to my calender please"
+        },
+        {
+          "text": "Add Date with somebody to my callender"
+        },
+        {
+          "text": "I would like to add an appointment to my calender"
+        },
+        {
+          "text": "I want to add something to my callender"
+        },
+        {
+          "text": "Add Dinner with friends to calender"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Party",
+      "examples": [
+        {
+          "text": "Let's have a party"
+        },
+        {
+          "text": "Whoop Whoop!"
+        },
+        {
+          "text": "Party time"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Let us change the topic"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "jep"
+        },
+        {
+          "text": "go ahed"
+        },
+        {
+          "text": "go ahead"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Wait"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        {
+          "text": "Will it rain today ?"
+        },
+        {
+          "text": "Should I take sunscreen with me tomorrow"
+        },
+        {
+          "text": "Should I take sunscreen to Berlin"
+        },
+        {
+          "text": "Will we get some light next week?"
+        },
+        {
+          "text": "What is the weather going to be tomorrow?"
+        },
+        {
+          "text": "Do I need an umbrella today?"
+        }
+      ],
+      "description": "The user asks for weather information"
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let's go back to square one"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "Thx"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thanks"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Preference_Change",
+      "examples": [
+        {
+          "text": "I would like to change my Preferences"
+        },
+        {
+          "text": "I want to change my home address"
+        },
+        {
+          "text": "I Like to chage my name"
+        },
+        {
+          "text": "I have to change my name"
+        },
+        {
+          "text": "Change Preferences"
+        },
+        {
+          "text": "What is my current method of transportation"
+        },
+        {
+          "text": "What is my home address"
+        },
+        {
+          "text": "What is my name"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Never mind"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "predefined-location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "home",
+          "synonyms": [
+            "Home",
+            "family",
+            "residence"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "work",
+          "synonyms": [
+            "office",
+            "offices",
+            "job"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "duration",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "day",
+          "synonyms": [
+            "all day",
+            "entire day"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "hours",
+          "patterns": [
+            "([0-9][1-9]*)\\s?(hours|minutes|min|h)"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "minutes",
+          "patterns": [
+            "([0-9][1-9]*)\\s?(minutes|min)"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "appointment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Meeting",
+          "synonyms": [
+            "Meeting with John",
+            "Meeting",
+            "First Meeting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dinner with friends",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vacation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brunch",
+          "synonyms": [
+            "Brunch with family",
+            "lunch",
+            "dinner",
+            "breakfast",
+            "dessert",
+            "dinner with firends"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Date with simebody",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "traffic-mode",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "driving",
+          "synonyms": [
+            "vehicle",
+            "truck",
+            "automobile",
+            "auto",
+            "suv",
+            "motorcycle",
+            "motor",
+            "drive",
+            "car",
+            "🚗"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "transit",
+          "synonyms": [
+            "bus",
+            "train",
+            "subway",
+            "buses",
+            "trains",
+            "railway",
+            "rail",
+            "metro",
+            "autobus",
+            "tram",
+            "🚆",
+            "🚄",
+            "🚝"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bicycling",
+          "synonyms": [
+            "bicycle",
+            "cycling",
+            "cyclists",
+            "bmx",
+            "bike",
+            "🚴"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "walking",
+          "synonyms": [
+            "run",
+            "jogging",
+            "walking",
+            "jog",
+            "go",
+            "jogger",
+            "walk",
+            "use my legs"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "preference",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "work_address",
+          "synonyms": [
+            "work address",
+            "office address",
+            "work setting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": [
+            "name"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "traffic_mode",
+          "synonyms": [
+            "methode of transportation",
+            "way to travel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "home_address",
+          "synonyms": [
+            "home address",
+            "home setting",
+            "address"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "weather-condition",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "rain",
+          "synonyms": [
+            "rainfalls",
+            "rainstorms",
+            "thunderstorm",
+            "pouring",
+            "storm",
+            "rainy",
+            "rainfall",
+            "rainstorm",
+            "downpour",
+            "raining",
+            "rains",
+            "umbrella",
+            "raincoat",
+            "typhoon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "temperature",
+          "synonyms": [
+            "hot",
+            "warmer",
+            "heat",
+            "toasty",
+            "hottest",
+            "hotter",
+            "temperature",
+            "colder",
+            "warmest",
+            "heating",
+            "warms",
+            "cooler",
+            "coolest",
+            "milder",
+            "chilly",
+            "cool",
+            "thermal",
+            "chill",
+            "humid"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wind",
+          "synonyms": [
+            "winds",
+            "breeze",
+            "windy",
+            "storms",
+            "breezes",
+            "breezy",
+            "chilly",
+            "overcast",
+            "thunderstorms",
+            "windstorms",
+            "rainstorms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sun",
+          "synonyms": [
+            "sunny",
+            "bluesky",
+            "sunlight",
+            "sunshine",
+            "sunset",
+            "sunrise",
+            "sunsets",
+            "sunrays",
+            "light",
+            "daylight",
+            "bright",
+            "sunshiny",
+            "sunnier",
+            "sunglasses",
+            "sunscreen"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1552211372880",
+      "context": {
+        "weather_date": "@sys-date"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_8_1552211372880",
+      "previous_sibling": "handler_9_1552211372880"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1552211372880",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_9_1552211372880"
+    },
+    {
+      "type": "standard",
+      "title": "Change Work Address",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1552752578131",
+      "actions": [
+        {
+          "name": "preferences/set_user_prefs",
+          "type": "client",
+          "parameters": {
+            "work_address": "<? input.text ?>"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1552752897211"
+      },
+      "conditions": "$preference_name:work_address",
+      "dialog_node": "node_20_1552759002707",
+      "previous_sibling": "node_14_1552755825386"
+    },
+    {
+      "type": "frame",
+      "title": "Change Traffic Mode",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1552752578131",
+      "actions": [
+        {
+          "name": "preferences/set_user_prefs",
+          "type": "client",
+          "parameters": {
+            "traffic_mode": "<? $traffic_mode ?>"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1552752897211"
+      },
+      "conditions": "$preference_name == \"traffic_mode\"",
+      "dialog_node": "node_21_1552759115097",
+      "previous_sibling": "node_6_1552752260679"
+    },
+    {
+      "type": "standard",
+      "title": "Change Home Address",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1552752578131",
+      "actions": [
+        {
+          "name": "preferences/set_user_prefs",
+          "type": "client",
+          "parameters": {
+            "home_address": "<? input.text ?>"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1552752897211"
+      },
+      "conditions": "$preference_name:home_address",
+      "dialog_node": "node_14_1552755825386",
+      "previous_sibling": "node_21_1552759115097"
+    },
+    {
+      "type": "frame",
+      "title": "Change Name",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1552752578131",
+      "actions": [
+        {
+          "name": "preferences/set_user_prefs",
+          "type": "client",
+          "parameters": {
+            "name": "<? $name ?>"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1552752897211"
+      },
+      "conditions": "$preference_name == \"name\"",
+      "dialog_node": "node_6_1552752260679",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What is your prefered method of transportation?"
+      },
+      "parent": "slot_22_1552759115099",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_24_1552759115099",
+      "previous_sibling": "handler_23_1552759115099"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_22_1552759115099",
+      "context": {
+        "traffic_mode": "@traffic-mode"
+      },
+      "metadata": {},
+      "conditions": "@traffic-mode",
+      "event_name": "input",
+      "dialog_node": "handler_23_1552759115099"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1552210773201",
+      "metadata": {},
+      "variable": "$weather_location",
+      "dialog_node": "slot_10_1552211380067",
+      "previous_sibling": "slot_7_1552211372880"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1552210773201",
+      "metadata": {},
+      "variable": "$weather_condition",
+      "dialog_node": "slot_4_1552211351917",
+      "previous_sibling": "node_5_1552305229948"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1552210773201",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@weather-condition:rain",
+      "dialog_node": "node_3_1552210990004",
+      "previous_sibling": "slot_13_1552211387085"
+    },
+    {
+      "type": "standard",
+      "title": "cleareContext",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('weather_location')?> <? context.remove('weather_date')?> <? context.remove('weather_time')?><? context.remove('weather_condition')?><? context.remove('weather_response')?>"
+      },
+      "parent": "node_2_1552210773201",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1552305229948",
+      "previous_sibling": "node_4_1552304443884"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1552210773201",
+      "metadata": {},
+      "variable": "$weather_date",
+      "dialog_node": "slot_7_1552211372880",
+      "previous_sibling": "slot_4_1552211351917"
+    },
+    {
+      "type": "standard",
+      "title": "Weather Error",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry I had problems to understand you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1552210773201",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1552305229948"
+      },
+      "conditions": "$weather_response.success == false",
+      "dialog_node": "node_4_1552304443884",
+      "previous_sibling": "node_3_1552304439752"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1552210773201",
+      "metadata": {},
+      "variable": "$weather_time",
+      "dialog_node": "slot_13_1552211387085",
+      "previous_sibling": "slot_10_1552211380067"
+    },
+    {
+      "type": "standard",
+      "title": "Weather Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok the weather in <? $weather_response.location ?> will be <? $weather_response.condition ?> ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1552210773201",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1552305229948"
+      },
+      "conditions": "$weather_response.success == true",
+      "dialog_node": "node_3_1552304439752"
+    },
+    {
+      "type": "standard",
+      "title": "Home Address Response",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1552381983612",
+      "context": {
+        "home": "<? input.text ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_24_1552383080941"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_26_1552383252050",
+      "previous_sibling": "node_28_1552383529354"
+    },
+    {
+      "type": "standard",
+      "title": "Reject",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. No Problem. Lets go to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1552381983612",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_24_1552383080941"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_28_1552383529354"
+    },
+    {
+      "type": "standard",
+      "title": "clear context",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variables": "<? context.remove('preference_name') ?><? context.remove('preferences') ?><? context.remove('result') ?><? context.remove('traffic_mode') ?>"
+      },
+      "parent": "node_3_1552743524169",
+      "metadata": {},
+      "dialog_node": "node_1_1552751893448",
+      "previous_sibling": "node_4_1552743992221"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_3_1552743524169",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1552744270458",
+      "previous_sibling": "handler_12_1552744518863"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "There are different preferences you can change (e.g. name, home/work address or travel method)."
+          ]
+        }
+      },
+      "parent": "node_3_1552743524169",
+      "conditions": "#Bot_Control_Unsure",
+      "event_name": "generic",
+      "dialog_node": "handler_12_1552744518863",
+      "previous_sibling": "slot_7_1552744270469"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_3_1552743524169",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$preference_name",
+      "dialog_node": "node_4_1552743992221",
+      "digress_out": "allow_all",
+      "previous_sibling": "handler_6_1552744270458"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1552743524169",
+      "metadata": {},
+      "variable": "$preference_name",
+      "dialog_node": "slot_7_1552744270469"
+    },
+    {
+      "type": "standard",
+      "title": "Work Address Response",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1552383080941",
+      "context": {
+        "work": "<? input.text ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1552383103444"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_27_1552383315388",
+      "previous_sibling": "node_1_1552566280684"
+    },
+    {
+      "type": "standard",
+      "title": "Reject",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. No Problem. Lets go on with the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1552383080941",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1552383103444"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_1_1552566280684"
+    },
+    {
+      "type": "standard",
+      "title": "Clear info Context",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('info')?>"
+      },
+      "parent": "node_1_1552308190489",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1552308289547",
+      "previous_sibling": "node_9_1552306031531"
+    },
+    {
+      "type": "standard",
+      "title": "Traffic",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It will take you <? $info.payload.duration ?> when you go by <? $info.payload.mode ?> today."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1552308190489",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1552308289547"
+      },
+      "conditions": "$info.type == 'traffic'",
+      "dialog_node": "node_9_1552306031531"
+    },
+    {
+      "type": "standard",
+      "title": "Capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are many things I'm going to be capable of. But for now I'am not allowed to tell you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1552379293572",
+      "metadata": {},
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_3_1552842296896",
+      "previous_sibling": "node_2_1552842223265"
+    },
+    {
+      "type": "standard",
+      "title": "About You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am your personal assistant. I can answer some of your questions and will help you with everyday live."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1552379293572",
+      "metadata": {},
+      "conditions": "#General_About_You",
+      "dialog_node": "node_2_1552842223265",
+      "previous_sibling": "node_1_1552842073435"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are welcome."
+              },
+              {
+                "text": "I'am happy to help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1552379293572",
+      "metadata": {},
+      "conditions": "#Thanks",
+      "dialog_node": "node_5_1552842367058",
+      "previous_sibling": "node_3_1552842296896"
+    },
+    {
+      "type": "standard",
+      "title": "Are you there",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm here waiting for your instructions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1552379293572",
+      "metadata": {},
+      "conditions": "#Bot_Control_Confirm_Presence",
+      "dialog_node": "node_2_1552846598155",
+      "previous_sibling": "node_1_1552845325730"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. See you later."
+              },
+              {
+                "text": "Bye."
+              },
+              {
+                "text": "Good bye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1552379293572",
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_4_1552842321418",
+      "previous_sibling": "node_5_1552842367058"
+    },
+    {
+      "type": "standard",
+      "title": "Party",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1552379293572",
+      "metadata": {},
+      "conditions": "#Party",
+      "dialog_node": "node_1_1552845325730",
+      "previous_sibling": "node_4_1552842321418"
+    },
+    {
+      "type": "standard",
+      "title": "Gretting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi."
+              },
+              {
+                "text": "Hello."
+              },
+              {
+                "text": "Nice to see you."
+              },
+              {
+                "text": "Good day."
+              },
+              {
+                "text": "Hola amigo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1552379293572",
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_1_1552842073435",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You don't have a home address set."
+              },
+              {
+                "text": "Do you want to set a home address?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1552743992221",
+      "metadata": {},
+      "conditions": "$preference_name:home_address",
+      "dialog_node": "node_19_1552757409414",
+      "previous_sibling": "node_15_1552756738767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your current prefered method of transportation is <? $preferences.traffic_mode ?>"
+              },
+              {
+                "text": "Do you want to change to another method of transportation?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1552743992221",
+      "metadata": {},
+      "conditions": "$preference_name:traffic_mode && $preferences.traffic_mode",
+      "dialog_node": "node_25_1552759249116",
+      "previous_sibling": "node_7_1552843233886"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You don't have a work address set."
+              },
+              {
+                "text": "Do you want to set a work address?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1552743992221",
+      "metadata": {},
+      "conditions": "$preference_name:work_address",
+      "dialog_node": "node_7_1552843233886",
+      "previous_sibling": "node_17_1552756740853"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your current home address is <? $preferences.home_address ?>"
+              },
+              {
+                "text": "Do you want to change it?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1552743992221",
+      "metadata": {},
+      "conditions": "$preference_name:home_address && $preferences.home_address",
+      "dialog_node": "node_15_1552756738767",
+      "previous_sibling": "node_6_1552842973170"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You did not tell me your name."
+              },
+              {
+                "text": "Do you want to set your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1552743992221",
+      "metadata": {},
+      "conditions": "$preference_name:name",
+      "dialog_node": "node_6_1552842973170",
+      "previous_sibling": "node_5_1552744244381"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You did not give me your prefered method of transportation."
+              },
+              {
+                "text": "Do you want to set it?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1552743992221",
+      "metadata": {},
+      "conditions": "$preference_name:traffic_mode",
+      "dialog_node": "node_8_1552843303712",
+      "previous_sibling": "node_25_1552759249116"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your current name is <? $preferences.name ?>"
+              },
+              {
+                "text": "Do you want to change your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1552743992221",
+      "metadata": {},
+      "conditions": "$preference_name:name && $preferences.name",
+      "dialog_node": "node_5_1552744244381",
+      "previous_sibling": "node_2_1552751973042"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your current work address is <? $preferences.work_address  ?>."
+              },
+              {
+                "text": "Do you want to change it?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1552743992221",
+      "metadata": {},
+      "conditions": "$preference_name:work_address && $preferences.work_address",
+      "dialog_node": "node_17_1552756740853",
+      "previous_sibling": "node_19_1552757409414"
+    },
+    {
+      "type": "standard",
+      "title": "Change Answer",
+      "output": {},
+      "parent": "node_4_1552743992221",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$preference_name",
+      "dialog_node": "node_2_1552751973042",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry. There was a Problem with saving your preferences"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_17_1552746402595",
+      "metadata": {},
+      "conditions": "$result.success == false",
+      "dialog_node": "node_19_1552746517673",
+      "previous_sibling": "node_18_1552746461723"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your preferences have been saved successfully"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1552746402595",
+      "metadata": {},
+      "conditions": "$result.success ==true",
+      "dialog_node": "node_18_1552746461723"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "At what time will the entry start"
+      },
+      "parent": "slot_26_1552195935892",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_28_1552195935892",
+      "previous_sibling": "handler_27_1552195935892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_26_1552195935892",
+      "context": {
+        "time_start": "@sys-time"
+      },
+      "metadata": {},
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_27_1552195935892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please tell me your name."
+      },
+      "parent": "slot_7_1552752519789",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_9_1552752519789",
+      "previous_sibling": "handler_8_1552752519789"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1552752519789",
+      "context": {
+        "name": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_8_1552752519789"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thats it. Are you ok with me saving your details?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1552383103444",
+      "metadata": {},
+      "dialog_node": "node_4_1552566600205",
+      "previous_sibling": "node_10_1552567777824"
+    },
+    {
+      "type": "standard",
+      "title": "Reject",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. That is fine. You can come in later and change your preferences."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1552383103444",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1552570987159"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_10_1552567777824",
+      "previous_sibling": "node_6_1552567095320"
+    },
+    {
+      "type": "standard",
+      "title": "Approve and save",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. I'll save your preferences."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1552383103444",
+      "actions": [
+        {
+          "name": "preferences/set_user_prefs",
+          "type": "client",
+          "parameters": {
+            "name": "<? $name ?>",
+            "home_address": "<? $home ?>",
+            "traffic_mode": "<? $traffic_mode ?>",
+            "work_address": "<? $work ?>"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "context": {
+        "preferences": {
+          "new": false,
+          "name": "<? $name ?>"
+        }
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_6_1552567095320",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1552381114139",
+      "metadata": {},
+      "variable": "$name",
+      "dialog_node": "slot_2_1552381268319",
+      "previous_sibling": "handler_17_1552381558562"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1552381114139",
+      "metadata": {},
+      "variable": "$traffic_mode",
+      "dialog_node": "slot_5_1552381290591",
+      "previous_sibling": "slot_2_1552381268319"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_1_1552381114139",
+      "conditions": "#Bot_Control_Unsure",
+      "event_name": "generic",
+      "dialog_node": "handler_17_1552381558562"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I am sorry. I could not find a preference like that."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1552744270469",
+      "event_name": "nomatch",
+      "dialog_node": "handler_11_1552744408842",
+      "previous_sibling": "handler_8_1552744270469"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1552744270469",
+      "context": {
+        "preference_name": "@preference"
+      },
+      "metadata": {},
+      "conditions": "@preference",
+      "event_name": "input",
+      "dialog_node": "handler_8_1552744270469",
+      "previous_sibling": "handler_9_1552744270469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What preference do you like to work on?"
+      },
+      "parent": "slot_7_1552744270469",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_9_1552744270469"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_13_1552211387085",
+      "context": {
+        "weather_time": "@sys-time"
+      },
+      "metadata": {},
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_14_1552211387085",
+      "previous_sibling": "handler_15_1552211387085"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_13_1552211387085",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_15_1552211387085"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. I'll save your preferences."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1552567095320",
+      "actions": [
+        {
+          "name": "preferences/set",
+          "type": "client",
+          "parameters": {
+            "name": "<? $name ?>",
+            "home_address": "<? $home ?>",
+            "traffic_mode": "<? $traffic_mode ?>",
+            "work_address": "<? $work ?>"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "context": {
+        "preferences": {
+          "new": false,
+          "name": "<? $name ?>"
+        }
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_7_1552567155820",
+      "previous_sibling": "node_17_1552746402595"
+    },
+    {
+      "type": "standard",
+      "title": "Response",
+      "output": {},
+      "parent": "node_6_1552567095320",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1552570987159"
+      },
+      "conditions": "$result",
+      "dialog_node": "node_17_1552746402595",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1552381268319",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_3_1552381268319",
+      "previous_sibling": "handler_4_1552381268319"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok. Nice to meet you <? $name ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1552381268319",
+      "event_name": "filled",
+      "dialog_node": "handler_13_1552381393009",
+      "previous_sibling": "handler_3_1552381268319"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry but I had problems understanding your name. Can you repeate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1552381268319",
+      "event_name": "nomatch",
+      "dialog_node": "handler_14_1552381393009",
+      "previous_sibling": "handler_13_1552381393009"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "First of all it would be nice to know your name."
+      },
+      "parent": "slot_2_1552381268319",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1552381268319"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_22_1552213333997",
+      "context": {
+        "duration": "<? @duration.groups[1] ?>"
+      },
+      "metadata": {},
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_23_1552213333997",
+      "previous_sibling": "handler_24_1552213333997"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_22_1552213333997",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_24_1552213333997"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "When will the meeting end?"
+      },
+      "parent": "slot_35_1552214683931",
+      "event_name": "focus",
+      "dialog_node": "handler_37_1552214683931",
+      "previous_sibling": "handler_36_1552214683931"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_35_1552214683931",
+      "context": {
+        "time_end": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_36_1552214683931"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_2_1552751973042",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1552751893448"
+      },
+      "conditions": "$result",
+      "dialog_node": "node_11_1552752897211",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_10_1552752578131"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What should your new work address be?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1552751973042",
+      "metadata": {},
+      "conditions": "#Bot_Control_Approve_Response && $preference_name:work_address",
+      "dialog_node": "node_28_1552759479937",
+      "previous_sibling": "node_27_1552759478891"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What should your new home address be?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1552751973042",
+      "metadata": {},
+      "conditions": "#Bot_Control_Approve_Response && $preference_name:home_address",
+      "dialog_node": "node_27_1552759478891",
+      "previous_sibling": "node_26_1552759477601"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How would you like to travel in the future?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1552751973042",
+      "metadata": {},
+      "conditions": "#Bot_Control_Approve_Response && $preference_name:traffic_mode",
+      "dialog_node": "node_26_1552759477601",
+      "previous_sibling": "node_4_1552752098663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK. Tell me your new name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1552751973042",
+      "metadata": {},
+      "conditions": "#Bot_Control_Approve_Response && $preference_name:name",
+      "dialog_node": "node_4_1552752098663",
+      "previous_sibling": "node_11_1552752897211"
+    },
+    {
+      "type": "folder",
+      "title": "Change Flows",
+      "parent": "node_2_1552751973042",
+      "metadata": {},
+      "conditions": "$preference_name",
+      "dialog_node": "node_10_1552752578131",
+      "previous_sibling": "node_29_1552759638948"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. No problem."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1552751973042",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1552751893448"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_5_1552752136324",
+      "previous_sibling": "node_28_1552759479937"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. I am not changing anything"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1552751973042",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1552751893448"
+      },
+      "conditions": "#Bot_Control_Change_Subject || #Bot_Control_Ignore_Undo || #Bot_Control_Start_Over",
+      "dialog_node": "node_29_1552759638948"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1552752260679",
+      "metadata": {},
+      "variable": "$name",
+      "dialog_node": "slot_7_1552752519789"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1552211351917",
+      "context": {
+        "weather_condition": "@weather-condition"
+      },
+      "metadata": {},
+      "conditions": "@weather-condition",
+      "event_name": "input",
+      "dialog_node": "handler_5_1552211351917",
+      "previous_sibling": "handler_6_1552211351917"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1552211351917",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1552211351917"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "On which date should I add the entry"
+      },
+      "parent": "slot_23_1552195891814",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_25_1552195891814",
+      "previous_sibling": "handler_24_1552195891814"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_23_1552195891814",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_24_1552195891814"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1552211380067",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1552211380067",
+      "previous_sibling": "handler_11_1552211380067"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1552211380067",
+      "context": {
+        "weather_location": "@sys-location"
+      },
+      "metadata": {},
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_11_1552211380067"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry I had problems understanding you. You can choose between driving, walking and using public transport"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1552381290591",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_19_1552381622447",
+      "previous_sibling": "handler_6_1552381290591"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1552381290591",
+      "context": {
+        "traffic_mode": "@traffic-mode"
+      },
+      "metadata": {},
+      "conditions": "@traffic-mode",
+      "event_name": "input",
+      "dialog_node": "handler_6_1552381290591",
+      "previous_sibling": "handler_7_1552381290591"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What is your prefered method of transportation?"
+      },
+      "parent": "slot_5_1552381290591",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1552381290591"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1552044487900",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1552044487900",
+      "previous_sibling": "handler_4_1552044487900"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1552044487900",
+      "event_name": "input",
+      "dialog_node": "handler_4_1552044487900"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_21_1552759115097",
+      "metadata": {},
+      "variable": "$traffic_mode",
+      "dialog_node": "slot_22_1552759115099"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. What is the name of the entry you like to add to your calender?"
+              },
+              {
+                "text": "Fine. Let's Start with the name of Your Appointment"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1552215230264",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_39_1552215448759",
+      "previous_sibling": "node_40_1552216148737"
+    },
+    {
+      "type": "standard",
+      "title": "Set Apointment name",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1552215230264",
+      "context": {
+        "apointment_name": "<? input.text ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1552195849047"
+      },
+      "conditions": "true",
+      "dialog_node": "node_40_1552216148737",
+      "previous_sibling": "node_21_1552195849047"
+    },
+    {
+      "type": "frame",
+      "title": "Calender Collect Data",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok I will create the new entry for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1552215230264",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "$appointment_name",
+      "dialog_node": "node_21_1552195849047",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry. I had problems saving your changes."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_11_1552752897211",
+      "metadata": {},
+      "conditions": "$result.success == false",
+      "dialog_node": "node_13_1552752960403",
+      "previous_sibling": "node_12_1552752940455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. I have saved your preferences."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1552752897211",
+      "metadata": {},
+      "conditions": "$result.success == true",
+      "dialog_node": "node_12_1552752940455"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok. Tell me the name and and date of the new entry."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1552195849047",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_22_1552195891807",
+      "previous_sibling": "node_2_1552302924502"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_21_1552195849047",
+      "metadata": {},
+      "variable": "$time_end",
+      "dialog_node": "slot_35_1552214683931",
+      "previous_sibling": "slot_26_1552195935892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_21_1552195849047",
+      "metadata": {},
+      "variable": "$duration",
+      "dialog_node": "slot_22_1552213333997",
+      "previous_sibling": "slot_35_1552214683931"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_21_1552195849047",
+      "metadata": {},
+      "variable": "$time_start",
+      "dialog_node": "slot_26_1552195935892",
+      "previous_sibling": "slot_23_1552195891814"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_21_1552195849047",
+      "metadata": {},
+      "variable": "$date",
+      "dialog_node": "slot_23_1552195891814",
+      "previous_sibling": "handler_22_1552195891807"
+    },
+    {
+      "type": "standard",
+      "title": "Error",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1552195849047",
+      "metadata": {},
+      "dialog_node": "node_2_1552302924502",
+      "previous_sibling": "node_1_1552302914573"
+    },
+    {
+      "type": "standard",
+      "title": "Succes",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1552195849047",
+      "metadata": {},
+      "dialog_node": "node_1_1552302914573"
+    },
+    {
+      "type": "standard",
+      "title": "Work Address Request",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your work Address"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "dialog_node": "node_24_1552383080941",
+      "previous_sibling": "node_23_1552381983612"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmation Info",
+      "output": {},
+      "parent": "Welcome",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "dialog_node": "node_25_1552383103444",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_24_1552383080941"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1552044487857",
+      "previous_sibling": "node_12_1552570987159"
+    },
+    {
+      "type": "standard",
+      "title": "Why",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Because I need to know everything"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "#Bot_Control_Unsure",
+      "dialog_node": "node_21_1552381735413",
+      "previous_sibling": "node_25_1552383103444"
+    },
+    {
+      "type": "standard",
+      "title": "Home Address Request",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your home address?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "dialog_node": "node_23_1552381983612",
+      "previous_sibling": "node_1_1552381114139"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. You can change your settings any time if you like to."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1552570987159"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_22_1552381763490",
+      "previous_sibling": "node_21_1552381735413"
+    },
+    {
+      "type": "slot",
+      "parent": "Welcome",
+      "dialog_node": "slot_3_1552044487900",
+      "previous_sibling": "handler_1_1552044487854"
+    },
+    {
+      "type": "event_handler",
+      "parent": "Welcome",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1552044487854",
+      "previous_sibling": "node_2_1552044487857"
+    },
+    {
+      "type": "standard",
+      "title": "cleare context",
+      "output": {
+        "generic": [],
+        "deleted_variables": "<? context.remove('name') ?><? context.remove('home') ?><? context.remove('work') ?><? context.remove('traffic_mode') ?><? context.remove('result') ?>"
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_12_1552570987159",
+      "previous_sibling": "node_22_1552381763490"
+    },
+    {
+      "type": "frame",
+      "title": "General Info",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1552381983612"
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_1_1552381114139",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Calender Add",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. What is the name of the entry you like to add to your calender?"
+              },
+              {
+                "text": "Fine. Let's Start with the name of Your Appointment"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "date": "",
+        "time_end": "",
+        "time_start": "",
+        "appointment_name": ""
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#calender-add",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_38_1552215230264",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1552210773201"
+    },
+    {
+      "type": "frame",
+      "title": "weather",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "weather_request",
+          "type": "client",
+          "parameters": {
+            "date": "<? $weather_date ?>",
+            "time": "<? $weather_time ?>",
+            "location": "<? $weather_location ?>",
+            "condition": "<? $weather_condition ?>"
+          },
+          "result_variable": "$weather_response"
+        }
+      ],
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#weather",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1552210773201",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1552743524169",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "folder",
+      "title": "Chat",
+      "metadata": {},
+      "digress_in": "returns",
+      "dialog_node": "node_1_1552379293572",
+      "previous_sibling": "node_1_1552308190489"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1552379293572"
+    },
+    {
+      "type": "folder",
+      "title": "Proactive Info",
+      "metadata": {},
+      "conditions": "$info",
+      "dialog_node": "node_1_1552308190489",
+      "previous_sibling": "node_38_1552215230264"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "preferences/get_user_prefs",
+          "type": "client",
+          "parameters": {
+            "keys": [
+              "<? $preference_name ?>"
+            ]
+          },
+          "result_variable": "preferences"
+        }
+      ],
+      "context": {
+        "preference_name": "<? @preference ?>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#Preference_Change",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1552743524169",
+      "digress_out": "allow_all",
+      "previous_sibling": "Welcome",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Introduction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am your personal assistant. Before we start I would like to ask you some questions."
+              },
+              {
+                "text": "Are you ok with that?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$is_new_user == true",
+      "digress_in": "does_not_return",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "dfdc3e53-46e0-4b59-9bcf-568fde137299",
+  "counterexamples": [
+    {
+      "text": "I like to go by train"
+    },
+    {
+      "text": "I work in Ehningen"
+    },
+    {
+      "text": "I work in Ehningen at IBM"
+    },
+    {
+      "text": "Should I take my son with me tomorrow"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
